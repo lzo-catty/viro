@@ -10,7 +10,6 @@ import CoreData
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
             VStack {
                 Text("在线播放演示")
                     .font(.title2)
@@ -21,7 +20,5 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .padding()
             }
-            .navigationTitle("Viro Player")
-        }
     }
 }
