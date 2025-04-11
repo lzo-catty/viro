@@ -24,16 +24,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		531901112DA1859C00736933 /* viro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		531901282DA1859D00736933 /* viroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		531901322DA1859D00736933 /* viroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53189B572DA99427000C0D3F /* viro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = viro.app; path = /Users/zhaoyixiang/projects/viro/build/Debug/viro.app; sourceTree = "<absolute>"; };
+		531901282DA1859D00736933 /* viroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = viroTests.xctest; path = /Users/zhaoyixiang/projects/viro/build/Debug/viro.app/Contents/PlugIns/viroTests.xctest; sourceTree = "<absolute>"; };
+		531901322DA1859D00736933 /* viroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = viroUITests.xctest; path = "/Users/zhaoyixiang/projects/viro/build/Debug/viroUITests-Runner.app/Contents/PlugIns/viroUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5319013A2DA1859D00736933 /* Exceptions for "viro" folder in "viro" target */ = {
+		53189B582DA99477000C0D3F /* Exceptions for "viro" folder in "viro" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 531901102DA1859C00736933 /* viro */;
 		};
@@ -43,7 +43,7 @@
 		531901132DA1859C00736933 /* viro */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5319013A2DA1859D00736933 /* Exceptions for "viro" folder in "viro" target */,
+				53189B582DA99477000C0D3F /* Exceptions for "viro" folder in "viro" target */,
 			);
 			path = viro;
 			sourceTree = "<group>";
@@ -91,18 +91,7 @@
 				531901132DA1859C00736933 /* viro */,
 				5319012B2DA1859D00736933 /* viroTests */,
 				531901352DA1859D00736933 /* viroUITests */,
-				531901122DA1859C00736933 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		531901122DA1859C00736933 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				531901112DA1859C00736933 /* viro.app */,
-				531901282DA1859D00736933 /* viroTests.xctest */,
-				531901322DA1859D00736933 /* viroUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +116,7 @@
 			packageProductDependencies = (
 			);
 			productName = viro;
-			productReference = 531901112DA1859C00736933 /* viro.app */;
+			productReference = 53189B572DA99427000C0D3F /* viro.app */;
 			productType = "com.apple.product-type.application";
 		};
 		531901272DA1859D00736933 /* viroTests */ = {
@@ -209,7 +198,7 @@
 			mainGroup = 531901082DA1859C00736933;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 531901122DA1859C00736933 /* Products */;
+			productRefGroup = 531901082DA1859C00736933;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -287,7 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = viro/viro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = viro/Config/viro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"viro/Preview Content\"";
@@ -295,7 +284,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = viro/Info.plist;
+				INFOPLIST_FILE = viro/Resources/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -328,7 +317,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = viro/viro.entitlements;
+				CODE_SIGN_ENTITLEMENTS = viro/Config/viro.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"viro/Preview Content\"";
@@ -336,7 +325,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = viro/Info.plist;
+				INFOPLIST_FILE = viro/Resources/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
